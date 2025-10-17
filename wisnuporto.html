@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio saya | Android Developer</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Poppins", sans-serif;
+      line-height: 1.7;
+      background: #0a0a0a; /* hitam elegan */
+      color: #ffffff; /* teks utama putih */
+    }
+    header {
+      background: #111; /* sedikit lebih terang dari latar belakang */
+      color: #ffffff;
+      text-align: center;
+      padding: 80px 20px;
+      border-bottom: 1px solid #333;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #b0b0b0; /* abu lembut */
+    }
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ffffff;
+      letter-spacing: 1px;
+      border-bottom: 1px solid #333;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .about p {
+      font-size: 1rem;
+      text-align: justify;
+      line-height: 1.9;
+      color: #d4d4d4;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .project-card {
+      display: block;
+      background: #111; /* abu tua */
+      border-radius: 12px;
+      padding: 25px;
+      text-decoration: none;
+      color: #ffffff;
+      box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.3s ease, background 0.3s ease;
+      border: 1px solid #2a2a2a;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+      background: #1a1a1a;
+      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.08);
+    }
+    .project-card h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .project-card p {
+      font-size: 0.95rem;
+      color: #b0b0b0;
+      text-decoration: none;
+    }
+    footer {
+      background: #0c0c0c;
+      color: #a0a0a0;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9rem;
+      margin-top: 60px;
+      border-top: 1px solid #222;
+    }
+    footer a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 5px;
+      transition: color 0.2s;
+    }
+    footer a:hover {
+      color: #b0b0b0;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <h1>Wisnu Hadi Mahendra</h1>
+        <p>Mobile Developer | Kotlin & Jetpack Compose | Learning Flutter</p>
+    </header>
+
+    <section class="about">
+        <h2>Tentang Saya</h2>
+        <p>
+        Lulusan D3 Manajemen Informatika di Politeknik Negeri Jember dengan minat besar pada pengembangan aplikasi Android. Pernah mengikuti program Bangkit Academy sebagai Android Development Learning Path yang memperdalam keterampilan dalam Kotlin, Jetpack Compose, dan penggunaan Android Studio. Berpengalaman mengerjakan proyek aplikasi mobile berbasis tim maupun individu, mulai dari perancangan UI/UX hingga implementasi fitur. Selain itu saya siap belajar hal baru dan memiliki motivasi tinggi untuk terus belajar, beradaptasi dengan teknologi terbaru, dan siap memberikan kontribusi nyata di dunia kerja.
+        </p>
+    </section>
+    
+    <section>
+        <h2>Proyek Saya</h2>
+    </section>
+
+    <section class="projects">
+        <a href="https://github.com/Wisnuuh/capstone-dermalysis-md" target="_blank" class="project-card">
+            <h3>Dermalysis</h3>
+            <p>Dermalysis adalah aplikasi mobile dengan AI untuk diagnosis dini penyakit kulit, dikembangkan menggunakan Convolutional Neural Networks (CNN) dan pembelajaran transfer.</p>
+        </a>
+    </section>
+
+    <footer>
+        <p>Terhubung dengan saya:</p>
+        <p>
+        <a href="mailto:wisnuhadimahendra3@gmail.com">wisnuhadimahendra3@gmail.com</a> |
+        <a href="https://github.com/Wisnuuh" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/wisnu-hadi-mahendra-4703371a8/" target="_blank">LinkedIn</a>
+        </p>
+        <p>© 2025 Wisnu.</p>
+    </footer>
+</body>
+</html>
